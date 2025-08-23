@@ -19,6 +19,10 @@ spring:
       hibernate:
         format_sql: true
 
+  cloud:
+    discovery:
+      enabled: true
+
 eureka:
   client:
     service-url:
