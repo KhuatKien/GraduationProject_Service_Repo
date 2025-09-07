@@ -6,7 +6,7 @@ spring:
     name: promotion-service
 
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=tour_db;encrypt=false
+    url: jdbc:sqlserver://localhost:1433;databaseName=promotion_db;encrypt=false
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
