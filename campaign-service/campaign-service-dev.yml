@@ -6,7 +6,7 @@ spring:
     name: campaign-service
 
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=review_db;encrypt=false
+    url: jdbc:sqlserver://localhost:1433;databaseName=campaign_db;encrypt=false
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
