@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: review-service
+    name: campaign-service
 
   datasource:
     url: jdbc:sqlserver://localhost:1433;databaseName=review_db;encrypt=false
